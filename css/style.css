@@ -138,3 +138,9 @@ ul:not(.grid-navbar),ol {
 .grid-travelgallery > p {
     text-indent: 0;
 }
+
+@media (prefers-reduced-motion) {
+    .movement {
+        display: none;
+    }
+}
