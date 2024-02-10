@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Recipes</title>
 </head>
 <body>
     <header>
-        <a href = "#main">Skip to Main Content</a>
+        <a class = "skip-to-main" href = "#main">Skip to Main Content</a>
         <nav>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "pets.html">Pets</a></li>
-                <li><a href = "recipes.html">Recipes</a></li>
-                <li><a href = "travel.html">Travel</a></li>
+            <ul class = "grid-navbar">
+                <li><a href = "index.html" class = "inactive-nav-item">Home</a></li>
+                <li><a href = "pets.html" class = "inactive-nav-item">Pets</a></li>
+                <li><a href = "recipes.html" class = "active-nav-item">Recipes</a></li>
+                <li><a href = "travel.html" class = "inactive-nav-item">Travel</a></li>
             </ul>
         </nav>
         <h1>Recipes</h1>
@@ -21,7 +23,7 @@
     </header>
     <main id="main">
         <!-- Homemade Mac & Cheese -->
-        <div>
+        <div class = "section">
             <h2>Homemade Mac & Cheese</h2>
             <h3>Origin: Northern Europe</h3>
             <h3>Source: <a href = "https://www.delish.com/cooking/recipe-ideas/a44763401/mac-and-cheese-recipe/">Delish.com</a></h3>
@@ -52,16 +54,18 @@
                 <li>Bake mac and cheese until bubbly and golden, 25 to 30 minutes. Let cool for 10 minutes.</li>
             </ol>
             <h3>Additional Food Images</h3>
-            <img src="images/macandcheese/mac_cheese2.jpg" width = "200" alt="Instant cook mac and cheese, allows you to eat within five minutes">
-            <img src="images/macandcheese/mac_cheese3.jpg" width = "200" alt="Well-cooked mac and cheese with a full load of cheese">
-            <img src="images/macandcheese/mac_cheese4.jpg" width = "200" alt="Mac and cheese cooked in a nice cookware">
+            <div class = "grid-recipesgallery">
+                <img src="images/macandcheese/mac_cheese2.jpg" width = "200" alt="Instant cook mac and cheese, allows you to eat within five minutes">
+                <img src="images/macandcheese/mac_cheese3.jpg" width = "200" alt="Well-cooked mac and cheese with a full load of cheese">
+                <img src="images/macandcheese/mac_cheese4.jpg" width = "200" alt="Mac and cheese cooked in a nice cookware">
+            </div>
             <!-- Linghao Shi -->
-            <h3>Credit: Linghao Shi</h3>
+            <h3 class = "credit">Credit: Linghao Shi</h3>
 
         </div>
 
         <!-- Swedish Pancakes -->
-        <div>
+        <div class = "section">
             <h2>Swedish Pancakes</h2>
             <h3>Origin: Sweden</h3>
             <h3>Source: <a href = "https://true-north-kitchen.com/swedish-pancakes-with-lingonberries/">True-North-Kitchen.com</a></h3>
@@ -86,16 +90,18 @@
                 <li>Serve with lingonberry jam and butter or other desired toppings and/or fillings.</li>
             </ol>
             <h3>Additional Food Images</h3>
-            <img src="images/swedishpancakes/swedish-pancakes-pan.jpeg" width = "200" alt="A thin layer of pancake batter cooking in a stainless steel pan">
-            <img src="images/swedishpancakes/swedish-pancakes-rolled.jpeg" width = "200" alt="Rolled-up Swedish Pancakes plated and topped with lingonberry jam">
-            <img src="images/swedishpancakes/swedish-pancakes-cooking.jpeg" width = "200" alt="A thin, cooked  pancake in a stainless steel pan">
+            <div class = "grid-recipesgallery">
+                <img src="images/swedishpancakes/swedish-pancakes-pan.jpeg" width = "200" alt="A thin layer of pancake batter cooking in a stainless steel pan">
+                <img src="images/swedishpancakes/swedish-pancakes-rolled.jpeg" width = "200" alt="Rolled-up Swedish Pancakes plated and topped with lingonberry jam">
+                <img src="images/swedishpancakes/swedish-pancakes-cooking.jpeg" width = "200" alt="A thin, cooked  pancake in a stainless steel pan">
+            </div>
             <!-- Alyssa Skylar -->
-            <h3>Credit: Alyssa Skylar</h3>
+            <h3 class = "credit">Credit: Alyssa Skylar</h3>
 
         </div>
 
         <!-- Zucchini Fritters -->
-        <div>
+        <div class = "section">
             <h2>Zucchini Fritters</h2>
             <h3>Origin: Ottoman Empire</h3>
             <h3>Source: <a href = "https://niftyrecipe.com/recipe-851-zucchini-fritters.html">NiftyRecipe.com</a></h3>
@@ -127,11 +133,13 @@
                 <li>Transfer the finished products on a plate covered with paper towels to remove excess oil. Serve ready-made zucchini fritters in warm with sour cream or favorite sauce.</li>
             </ol>
             <h3>Additional Food Images</h3>
-            <img src="images/zucchinifritters/Zucchini_fritters_2.jpeg" width = "200" alt="A glass bowl of grated zucchini surrounded by other ingredients">
-            <img src="images/zucchinifritters/Zucchini_fritters_4.jpg" width = "200" alt="The combined fritter ingredient mixture in a bowl surrounded by other ingredients">
-            <img src="images/zucchinifritters/Zucchini_fritters_3.jpeg" width = "200" alt="Fritters in a stainless steel pan cooking in oil, surrounded by other ingredients">
+            <div class = "grid-recipesgallery">
+                <img src="images/zucchinifritters/Zucchini_fritters_2.jpeg" width = "200" alt="A glass bowl of grated zucchini surrounded by other ingredients">
+                <img src="images/zucchinifritters/Zucchini_fritters_4.jpg" width = "200" alt="The combined fritter ingredient mixture in a bowl surrounded by other ingredients">
+                <img src="images/zucchinifritters/Zucchini_fritters_3.jpeg" width = "200" alt="Fritters in a stainless steel pan cooking in oil, surrounded by other ingredients">
+            </div>
             <!-- Kay Malan -->
-            <h3>Credit: Kay Malan</h3>
+            <h3 class = "credit">Credit: Kay Malan</h3>
 
         </div>
     </main>
