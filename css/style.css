@@ -136,7 +136,7 @@ ul:not(.grid-navbar),ol {
     text-indent: 0;
 }
 
-@media (prefers-reduced-motion) {
+@media (prefers-reduced-motion: reduced) {
     .movement {
         display: none;
     }
